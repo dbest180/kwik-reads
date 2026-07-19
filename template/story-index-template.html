@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{STORY_TITLE}} · Quick Reads</title>
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body class="story-page">
+
+<header class="site-header">
+  <a href="../../index.html" class="brand">Quick Reads</a>
+</header>
+
+<main class="story-hero">
+  <img class="story-cover" src="{{COVER_SRC}}" alt="Cover art for {{STORY_TITLE}}" onerror="this.style.display='none'">
+  <h1 class="story-title">{{STORY_TITLE}}</h1>
+  <p class="story-synopsis">{{SYNOPSIS}}</p>
+  <a href="{{FIRST_CHAPTER_HREF}}" class="btn-start">Start Reading &rarr;</a>
+</main>
+
+<section class="chapter-list" aria-label="Chapters">
+  <!-- CHAPTER_LIST -->
+  <!-- /CHAPTER_LIST -->
+</section>
+
+<script src="../../js/transitions.js" defer></script>
+</body>
+</html>
