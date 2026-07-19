@@ -1,0 +1,19 @@
+{
+  "stories": {
+    "ghost-in-the-silicon": {
+      "title": "The Ghost in the Silicon",
+      "synopsis": "Something in the data center learned to breathe.",
+      "cover": "assets/covers/ghost-cover.jpg",
+      "chapters": [
+        {
+          "id": "ch-01",
+          "title": "Boot Sequence"
+        },
+        {
+          "id": "ch-02",
+          "title": "The Second Hum"
+        }
+      ]
+    }
+  }
+}
